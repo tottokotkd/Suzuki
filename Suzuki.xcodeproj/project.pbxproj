@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92541D901DBDE9F700A66962 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92968D051DBDB523006196D4 /* Array.swift */; };
+		92541D911DBDE9F900A66962 /* NumericTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92968D031DBDB494006196D4 /* NumericTypes.swift */; };
 		92968CC81DBDA782006196D4 /* Suzuki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92968CBE1DBDA782006196D4 /* Suzuki.framework */; };
 		92968CE61DBDA825006196D4 /* Suzuki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92968CDD1DBDA824006196D4 /* Suzuki.framework */; };
 		92968CF71DBDA937006196D4 /* ArraySlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92968CF61DBDA937006196D4 /* ArraySlice.swift */; };
@@ -379,6 +381,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				92968CFC1DBDADC6006196D4 /* ArraySlice.swift in Sources */,
+				92541D911DBDE9F900A66962 /* NumericTypes.swift in Sources */,
+				92541D901DBDE9F700A66962 /* Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,6 +698,7 @@
 				92968CF01DBDA825006196D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92968CF11DBDA825006196D4 /* Build configuration list for PBXNativeTarget "SuzukiTests-iOS" */ = {
 			isa = XCConfigurationList;
@@ -702,6 +707,7 @@
 				92968CF31DBDA825006196D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
