@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92968CC81DBDA782006196D4 /* Suzuki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92968CBE1DBDA782006196D4 /* Suzuki.framework */; };
+		92968CE61DBDA825006196D4 /* Suzuki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92968CDD1DBDA824006196D4 /* Suzuki.framework */; };
+		92968CF71DBDA937006196D4 /* ArraySlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92968CF61DBDA937006196D4 /* ArraySlice.swift */; };
+		92968CFC1DBDADC6006196D4 /* ArraySlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92968CF61DBDA937006196D4 /* ArraySlice.swift */; };
+		92968D011DBDB009006196D4 /* ArraySliceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92968CFD1DBDAF7D006196D4 /* ArraySliceTest.swift */; };
+		92968D021DBDB00A006196D4 /* ArraySliceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92968CFD1DBDAF7D006196D4 /* ArraySliceTest.swift */; };
+		92968D041DBDB494006196D4 /* NumericTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92968D031DBDB494006196D4 /* NumericTypes.swift */; };
+		92968D061DBDB523006196D4 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92968D051DBDB523006196D4 /* Array.swift */; };
+		92968D081DBDB564006196D4 /* ArrayTes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92968D071DBDB564006196D4 /* ArrayTes.swift */; };
+		92968D091DBDB564006196D4 /* ArrayTes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92968D071DBDB564006196D4 /* ArrayTes.swift */; };
+		92968D0B1DBDB573006196D4 /* NumericTypesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92968D0A1DBDB573006196D4 /* NumericTypesTest.swift */; };
+		92968D0C1DBDB573006196D4 /* NumericTypesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92968D0A1DBDB573006196D4 /* NumericTypesTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92968CC91DBDA782006196D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92968CB51DBDA782006196D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92968CBD1DBDA782006196D4;
+			remoteInfo = Suzuki;
+		};
+		92968CE71DBDA825006196D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92968CB51DBDA782006196D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92968CDC1DBDA824006196D4;
+			remoteInfo = "Suzuki-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92968CBE1DBDA782006196D4 /* Suzuki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Suzuki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92968CC21DBDA782006196D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92968CC71DBDA782006196D4 /* SuzukiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuzukiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92968CCE1DBDA782006196D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92968CDD1DBDA824006196D4 /* Suzuki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Suzuki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92968CE51DBDA825006196D4 /* SuzukiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuzukiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92968CF61DBDA937006196D4 /* ArraySlice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArraySlice.swift; path = src/DataConversion/ArraySlice.swift; sourceTree = "<group>"; };
+		92968CFD1DBDAF7D006196D4 /* ArraySliceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArraySliceTest.swift; path = src/DataConversion/ArraySliceTest.swift; sourceTree = "<group>"; };
+		92968D031DBDB494006196D4 /* NumericTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumericTypes.swift; path = src/DataConversion/NumericTypes.swift; sourceTree = "<group>"; };
+		92968D051DBDB523006196D4 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Array.swift; path = src/DataConversion/Array.swift; sourceTree = "<group>"; };
+		92968D071DBDB564006196D4 /* ArrayTes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrayTes.swift; path = src/DataConversion/ArrayTes.swift; sourceTree = "<group>"; };
+		92968D0A1DBDB573006196D4 /* NumericTypesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumericTypesTest.swift; path = src/DataConversion/NumericTypesTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92968CBA1DBDA782006196D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92968CC41DBDA782006196D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92968CC81DBDA782006196D4 /* Suzuki.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92968CD91DBDA824006196D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92968CE21DBDA825006196D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92968CE61DBDA825006196D4 /* Suzuki.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92968CB41DBDA782006196D4 = {
+			isa = PBXGroup;
+			children = (
+				92968CC01DBDA782006196D4 /* Suzuki */,
+				92968CCB1DBDA782006196D4 /* SuzukiTests */,
+				92968CBF1DBDA782006196D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92968CBF1DBDA782006196D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92968CBE1DBDA782006196D4 /* Suzuki.framework */,
+				92968CC71DBDA782006196D4 /* SuzukiTests.xctest */,
+				92968CDD1DBDA824006196D4 /* Suzuki.framework */,
+				92968CE51DBDA825006196D4 /* SuzukiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92968CC01DBDA782006196D4 /* Suzuki */ = {
+			isa = PBXGroup;
+			children = (
+				92968CF51DBDA91E006196D4 /* etc */,
+				92968CF81DBDA93C006196D4 /* src */,
+			);
+			path = Suzuki;
+			sourceTree = "<group>";
+		};
+		92968CCB1DBDA782006196D4 /* SuzukiTests */ = {
+			isa = PBXGroup;
+			children = (
+				92968CFA1DBDACDE006196D4 /* etc */,
+				92968CFB1DBDACEB006196D4 /* test */,
+			);
+			path = SuzukiTests;
+			sourceTree = "<group>";
+		};
+		92968CF51DBDA91E006196D4 /* etc */ = {
+			isa = PBXGroup;
+			children = (
+				92968CC21DBDA782006196D4 /* Info.plist */,
+			);
+			name = etc;
+			sourceTree = "<group>";
+		};
+		92968CF81DBDA93C006196D4 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				92968CF91DBDA941006196D4 /* DataConversion */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		92968CF91DBDA941006196D4 /* DataConversion */ = {
+			isa = PBXGroup;
+			children = (
+				92968D051DBDB523006196D4 /* Array.swift */,
+				92968CF61DBDA937006196D4 /* ArraySlice.swift */,
+				92968D031DBDB494006196D4 /* NumericTypes.swift */,
+			);
+			name = DataConversion;
+			sourceTree = "<group>";
+		};
+		92968CFA1DBDACDE006196D4 /* etc */ = {
+			isa = PBXGroup;
+			children = (
+				92968CCE1DBDA782006196D4 /* Info.plist */,
+			);
+			name = etc;
+			sourceTree = "<group>";
+		};
+		92968CFB1DBDACEB006196D4 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				92968CFF1DBDAF88006196D4 /* DataConversion */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		92968CFF1DBDAF88006196D4 /* DataConversion */ = {
+			isa = PBXGroup;
+			children = (
+				92968CFD1DBDAF7D006196D4 /* ArraySliceTest.swift */,
+				92968D071DBDB564006196D4 /* ArrayTes.swift */,
+				92968D0A1DBDB573006196D4 /* NumericTypesTest.swift */,
+			);
+			name = DataConversion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		92968CBB1DBDA782006196D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92968CDA1DBDA824006196D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		92968CBD1DBDA782006196D4 /* Suzuki-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92968CD21DBDA782006196D4 /* Build configuration list for PBXNativeTarget "Suzuki-macOS" */;
+			buildPhases = (
+				92968CB91DBDA782006196D4 /* Sources */,
+				92968CBA1DBDA782006196D4 /* Frameworks */,
+				92968CBB1DBDA782006196D4 /* Headers */,
+				92968CBC1DBDA782006196D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Suzuki-macOS";
+			productName = Suzuki;
+			productReference = 92968CBE1DBDA782006196D4 /* Suzuki.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92968CC61DBDA782006196D4 /* SuzukiTests-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92968CD51DBDA782006196D4 /* Build configuration list for PBXNativeTarget "SuzukiTests-macOS" */;
+			buildPhases = (
+				92968CC31DBDA782006196D4 /* Sources */,
+				92968CC41DBDA782006196D4 /* Frameworks */,
+				92968CC51DBDA782006196D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92968CCA1DBDA782006196D4 /* PBXTargetDependency */,
+			);
+			name = "SuzukiTests-macOS";
+			productName = SuzukiTests;
+			productReference = 92968CC71DBDA782006196D4 /* SuzukiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92968CDC1DBDA824006196D4 /* Suzuki-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92968CEE1DBDA825006196D4 /* Build configuration list for PBXNativeTarget "Suzuki-iOS" */;
+			buildPhases = (
+				92968CD81DBDA824006196D4 /* Sources */,
+				92968CD91DBDA824006196D4 /* Frameworks */,
+				92968CDA1DBDA824006196D4 /* Headers */,
+				92968CDB1DBDA824006196D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Suzuki-iOS";
+			productName = "Suzuki-iOS";
+			productReference = 92968CDD1DBDA824006196D4 /* Suzuki.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92968CE41DBDA825006196D4 /* SuzukiTests-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92968CF11DBDA825006196D4 /* Build configuration list for PBXNativeTarget "SuzukiTests-iOS" */;
+			buildPhases = (
+				92968CE11DBDA825006196D4 /* Sources */,
+				92968CE21DBDA825006196D4 /* Frameworks */,
+				92968CE31DBDA825006196D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92968CE81DBDA825006196D4 /* PBXTargetDependency */,
+			);
+			name = "SuzukiTests-iOS";
+			productName = "Suzuki-iOSTests";
+			productReference = 92968CE51DBDA825006196D4 /* SuzukiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92968CB51DBDA782006196D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = tottokotkd;
+				TargetAttributes = {
+					92968CBD1DBDA782006196D4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LYQ4KMW724;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					92968CC61DBDA782006196D4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LYQ4KMW724;
+						ProvisioningStyle = Automatic;
+					};
+					92968CDC1DBDA824006196D4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LYQ4KMW724;
+						ProvisioningStyle = Automatic;
+					};
+					92968CE41DBDA825006196D4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LYQ4KMW724;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 92968CB81DBDA782006196D4 /* Build configuration list for PBXProject "Suzuki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92968CB41DBDA782006196D4;
+			productRefGroup = 92968CBF1DBDA782006196D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92968CBD1DBDA782006196D4 /* Suzuki-macOS */,
+				92968CDC1DBDA824006196D4 /* Suzuki-iOS */,
+				92968CC61DBDA782006196D4 /* SuzukiTests-macOS */,
+				92968CE41DBDA825006196D4 /* SuzukiTests-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92968CBC1DBDA782006196D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92968CC51DBDA782006196D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92968CDB1DBDA824006196D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92968CE31DBDA825006196D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92968CB91DBDA782006196D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92968D061DBDB523006196D4 /* Array.swift in Sources */,
+				92968CF71DBDA937006196D4 /* ArraySlice.swift in Sources */,
+				92968D041DBDB494006196D4 /* NumericTypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92968CC31DBDA782006196D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92968D081DBDB564006196D4 /* ArrayTes.swift in Sources */,
+				92968D0B1DBDB573006196D4 /* NumericTypesTest.swift in Sources */,
+				92968D011DBDB009006196D4 /* ArraySliceTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92968CD81DBDA824006196D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92968CFC1DBDADC6006196D4 /* ArraySlice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92968CE11DBDA825006196D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92968D091DBDB564006196D4 /* ArrayTes.swift in Sources */,
+				92968D0C1DBDB573006196D4 /* NumericTypesTest.swift in Sources */,
+				92968D021DBDB00A006196D4 /* ArraySliceTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92968CCA1DBDA782006196D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92968CBD1DBDA782006196D4 /* Suzuki-macOS */;
+			targetProxy = 92968CC91DBDA782006196D4 /* PBXContainerItemProxy */;
+		};
+		92968CE81DBDA825006196D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92968CDC1DBDA824006196D4 /* Suzuki-iOS */;
+			targetProxy = 92968CE71DBDA825006196D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92968CD01DBDA782006196D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92968CD11DBDA782006196D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92968CD31DBDA782006196D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LYQ4KMW724;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Suzuki/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tottokotkd.Suzuki;
+				PRODUCT_NAME = Suzuki;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		92968CD41DBDA782006196D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LYQ4KMW724;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Suzuki/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tottokotkd.Suzuki;
+				PRODUCT_NAME = Suzuki;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		92968CD61DBDA782006196D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LYQ4KMW724;
+				INFOPLIST_FILE = SuzukiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tottokotkd.SuzukiTests;
+				PRODUCT_NAME = SuzukiTests;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		92968CD71DBDA782006196D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LYQ4KMW724;
+				INFOPLIST_FILE = SuzukiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tottokotkd.SuzukiTests;
+				PRODUCT_NAME = SuzukiTests;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		92968CEF1DBDA825006196D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LYQ4KMW724;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Suzuki/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tottokotkd.Suzuki;
+				PRODUCT_NAME = Suzuki;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92968CF01DBDA825006196D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LYQ4KMW724;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Suzuki/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tottokotkd.Suzuki;
+				PRODUCT_NAME = Suzuki;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92968CF21DBDA825006196D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LYQ4KMW724;
+				INFOPLIST_FILE = SuzukiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tottokotkd.Suzuki-iOSTests";
+				PRODUCT_NAME = SuzukiTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		92968CF31DBDA825006196D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LYQ4KMW724;
+				INFOPLIST_FILE = SuzukiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tottokotkd.Suzuki-iOSTests";
+				PRODUCT_NAME = SuzukiTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92968CB81DBDA782006196D4 /* Build configuration list for PBXProject "Suzuki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92968CD01DBDA782006196D4 /* Debug */,
+				92968CD11DBDA782006196D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92968CD21DBDA782006196D4 /* Build configuration list for PBXNativeTarget "Suzuki-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92968CD31DBDA782006196D4 /* Debug */,
+				92968CD41DBDA782006196D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92968CD51DBDA782006196D4 /* Build configuration list for PBXNativeTarget "SuzukiTests-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92968CD61DBDA782006196D4 /* Debug */,
+				92968CD71DBDA782006196D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92968CEE1DBDA825006196D4 /* Build configuration list for PBXNativeTarget "Suzuki-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92968CEF1DBDA825006196D4 /* Debug */,
+				92968CF01DBDA825006196D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		92968CF11DBDA825006196D4 /* Build configuration list for PBXNativeTarget "SuzukiTests-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92968CF21DBDA825006196D4 /* Debug */,
+				92968CF31DBDA825006196D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92968CB51DBDA782006196D4 /* Project object */;
+}
