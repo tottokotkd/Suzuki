@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import Suzuki
 
 class DoubleTest: XCTestCase {
     func testPropToInt() {

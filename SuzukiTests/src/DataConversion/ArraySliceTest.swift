@@ -14,7 +14,6 @@ class SuzukiTests: XCTestCase {
     
     func testPropToArray() {
         do {
-            let hoge = #colorLiteral(red: 0.05882352963, green: 0.180392161, blue: 0.2470588237, alpha: 1)
             let array = [1, 2, 3, 4, 5]
             let slice = array.dropFirst(2)
             
